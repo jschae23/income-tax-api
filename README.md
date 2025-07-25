@@ -8,7 +8,7 @@ A simple Kotlin Spring Boot REST API that roughly calculates the tax rate based 
 
 Generate Gradle Wrapper (if not present)
 ```bash
-gradle wrapper --gradle-version 8.7
+gradle wrapper 
 chmod +x ./gradlew
 ./gradlew bootRun
 ```
