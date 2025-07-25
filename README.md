@@ -15,12 +15,9 @@ chmod +x ./gradlew
 
 ---
 
-## 🚀 Features
+## Endpoint 
 
 - RESTful endpoint: `/tax-rate?income=...`
-- Kotlin + Spring Boot 3.x
-- Gradle build
-- Lightweight and easy to run
 
 ---
 
