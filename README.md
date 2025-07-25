@@ -1,6 +1,6 @@
 # 🧾 Tax Rate API
 
-A simple Kotlin Spring Boot REST API that calculates the tax rate based on a given income using a logarithmic formula.
+A simple Kotlin Spring Boot REST API that roughly calculates the tax rate based on a given income using a logarithmic formula.
 
 ---
 
