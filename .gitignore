@@ -1,0 +1,44 @@
+# Kotlin build files
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Gradle
+.gradle/
+gradlew.bat
+gradlew
+gradle/
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Kotlin
+*.kotlin_module
+
+# Test reports
+/test-results/
+/out/
+/reports/
+
+# Application config
+application-local.yml
+application-dev.yml
+
