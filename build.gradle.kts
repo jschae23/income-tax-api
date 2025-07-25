@@ -1,21 +1,21 @@
 plugins {
-    id("org.springframework.boot") version "3.2.5"
-    id("io.spring.dependency-management") version "1.1.4"
-    kotlin("jvm") version "1.9.10"
-    kotlin("plugin.spring") version "1.9.10"
+    id("org.springframework.boot") version "3.5.4"
+    id("io.spring.dependency-management") version "1.1.7"
+    kotlin("jvm") version "2.2.0"
+    kotlin("plugin.spring") version "2.2.0"
 }
 
 group = "com.example"
 version = "0.0.1-SNAPSHOT"
 
-java.sourceCompatibility = JavaVersion.VERSION_17
+java.sourceCompatibility = JavaVersion.VERSION_24
 
 repositories {
     mavenCentral()
 }
 
 kotlin {
-    jvmToolchain(17)
+    jvmToolchain(24)
 }
 
 dependencies {
